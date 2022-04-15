@@ -6,7 +6,7 @@ license-file:	License
 copyright:      Copyright (c) 2008-2019 Euterpea authors
 category:       Sound, Music
 stability:      experimental
-build-type:     Custom
+build-type:     Simple
 author:         Paul Hudak <paul.hudak@yale.edu>,
                 Eric Cheng <eric.cheng@aya.yale.edu>,
                 Hai (Paul) Liu <hai.liu@aya.yale.edu>,
@@ -63,7 +63,7 @@ Library
         deepseq>=1.3.0.2 && <=1.5,
         random>=1.0.1.1 && <=1.2,
         PortMidi==0.2.0.0,
-        HCodecs == 0.5.1,
+        HCodecs == 0.5.2,
         stm >= 2.4 && <2.6,
         containers>=0.5.5.1 && <0.7,
         bytestring>=0.10.4.0 && <= 0.10.9,
